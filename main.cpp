@@ -1,13 +1,15 @@
 #include <iostream>
 
-int main() {
-    // Выводим строку "Hello world" на консоль
-    std::cout << "Hello world!" << std::endl;
+using namespace std;// chotobi izbavitsya ot std vezde
 
-    // Запрашиваем ввод символа от пользователя
+int main() {
+    // vivod hello world na consol
+    cout << "Hello world!" << endl;
+
+    // zapros vvoda simvola
     char symbol;
-    std::cout << "Input: ";
-    std::cin >> symbol;
+    cout << "Input: ";
+    cin >> symbol;
 
     return 0;
 }
